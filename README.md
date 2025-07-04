@@ -23,10 +23,11 @@ qa-code-quiz/<br>
 ---
 ## 🔹 1. Postman – Manual API Testing
 -Newman for generate html report
+
 ```bash
 newman run <collection-file> -e <environment-file> -r html
-
 ---
+
 ## 🔹 2. RestAssured – Automated API Testing
 
 **📂 Location:**  
