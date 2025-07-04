@@ -6,7 +6,7 @@ qa-code-quiz/<br>
 --------├── MeldCX quiz API test.postman_collection.json<br>
 --------└── Newman <br>
 --------------└── MeldCX quiz API test-2025-07-01-16-39-17-015-0.html # Newman html report<br>
-│ └── apiTestsuing RestAssured/src/test/java/meldCX_API_testing/apiTest/ # Automated API tests<br>
+---└── apiTestsuing RestAssured/src/test/java/meldCX_API_testing/apiTest/ # Automated API tests<br>
 │<br>
 ├── cypress/<br>
 -------└── e2e/<br>
