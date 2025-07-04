@@ -5,13 +5,56 @@ qa-code-quiz/<br>
 --- └── apiTesting Using Postman & Newman<br>
 --------├── MeldCX quiz API test.postman_collection.json<br>
 --------└── Newman <br>
---------------└── MeldCX quiz API test-2025-07-01-16-39-17-015-0.html       ## Newman html report<br>
----└── apiTestsuing RestAssured/src/test/java/meldCX_API_testing/apiTest/    ## Automated API tests<br>
+--------------└── MeldCX quiz API test-2025-07-01-16-39-17-015-0.html       #Newman html report<br>
+---└── apiTestsuing RestAssured/src/test/java/meldCX_API_testing/apiTest/    #Automated API tests<br>
 │<br>
 ├── cypress/<br>
 -------└── e2e/<br>
  -------------└── qa_quiz.cy.js # UI test for login page<br>
-  
+
+
+## 🛠 Tools & Technologies Used
+
+- **Postman**
+- **Newman**
+- **RestAssured**
+- - **Java**, - **Java**, **Maven**
+- **Cypress**
+---
+## 🔹 1. Postman – Manual API Testing
+-Newman for generate html report
+```bash
+newman run <collection-file> -e <environment-file> -r html
+
+
+## 🔹 2. RestAssured – Automated API Testing
+
+**📂 Location:**  
+`API Test/apiTestsuing RestAssured/src/test/java/meldCX_API_testing/apiTest/`
+
+**🧰 Pre-requisites:**
+
+- Java 11+
+- Maven installed
+- TestNG
+## 🔹 3. Cypress – UI Testing
+**🧰 Pre-requisites:**
+
+- Node.js
+- npm installed
+
+---
+
+**📦 Install Cypress:**
+
+```bash
+npm install
+
+** Run Cypress tests
+```bash
+npx cypress open
+
+
 ### Scenario
 The frontend team has developed a prototype login portal for an up and coming platform.
 However, they have not implemented any testing yet and it is up to you to do so.
