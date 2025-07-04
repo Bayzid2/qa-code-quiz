@@ -18,14 +18,15 @@ qa-code-quiz/<br>
 - **Postman**
 - **Newman**
 - **RestAssured**
-- - **Java**, **TestNG**, **Maven**
+-  **Java**, **TestNG**, **Maven**
 - **Cypress**
 ---
 ## 🔹 1. Postman – Manual API Testing
--Newman for generate html report
+- Newman for generate html report
 
 ```bash
 newman run <collection-file> -e <environment-file> -r html
+```
 ---
 
 ## 🔹 2. RestAssured – Automated API Testing
@@ -45,16 +46,16 @@ newman run <collection-file> -e <environment-file> -r html
 - Node.js
 - npm installed
 
----
 
 **📦 Install Cypress:**
 
 ```bash
-npm install
-
-** Run Cypress tests
+npm install cypress --save-dev
+```
+**▶️ Run Cypress tests**
 ```bash
 npx cypress open
+```
 
 ---
 ### Scenario
