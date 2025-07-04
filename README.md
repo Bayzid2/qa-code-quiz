@@ -18,7 +18,7 @@ qa-code-quiz/<br>
 - **Postman**
 - **Newman**
 - **RestAssured**
-- - **Java**, - **Java**, **Maven**
+- - **Java**, **TestNG**, **Maven**
 - **Cypress**
 ---
 ## 🔹 1. Postman – Manual API Testing
@@ -26,7 +26,7 @@ qa-code-quiz/<br>
 ```bash
 newman run <collection-file> -e <environment-file> -r html
 
-
+---
 ## 🔹 2. RestAssured – Automated API Testing
 
 **📂 Location:**  
@@ -37,6 +37,7 @@ newman run <collection-file> -e <environment-file> -r html
 - Java 11+
 - Maven installed
 - TestNG
+---
 ## 🔹 3. Cypress – UI Testing
 **🧰 Pre-requisites:**
 
@@ -54,7 +55,7 @@ npm install
 ```bash
 npx cypress open
 
-
+---
 ### Scenario
 The frontend team has developed a prototype login portal for an up and coming platform.
 However, they have not implemented any testing yet and it is up to you to do so.
